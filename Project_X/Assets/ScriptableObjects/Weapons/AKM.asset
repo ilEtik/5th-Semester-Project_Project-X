@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52522e889fae2b94d9d1b64a6a6937c7, type: 3}
+  m_Name: AKM
+  m_EditorClassIdentifier: 
+  weaponType: 0
+  firemode: 2
+  weaponName: AKM
+  magazineCapacity: 30
+  damage: 25
+  fireRange: 250
+  bulletsToSpawn: 1
+  fireRate: 8
+  recoil: 0.1
+  recoilPos: 2
+  recoilRot: 20
+  maxRecoilPos: 5
+  maxRecoilRot: 10
+  recoilSpeed: 1
+  reloadTime: 2
+  scopeFovMultiplikator: 55
+  sniperScope: 0
+  playAnimAfterShoot: 0
+  pickUpPre: {fileID: 500496428, guid: 3179154f114d5f74e99203ac2837bc61, type: 3}
+  weaponIcon: {fileID: 21300000, guid: b3b43220108dfa14fb6ec72650f896b2, type: 3}
+  shootSound: {fileID: 8300000, guid: 42ea8a21438129d469c3655dab437fba, type: 3}
+  reloadSound: {fileID: 8300000, guid: d967da7c656cdd14899d355c462f0122, type: 3}
+  animController: {fileID: 9100000, guid: 8b73d02a9c4299142a78a4efa3091d17, type: 2}

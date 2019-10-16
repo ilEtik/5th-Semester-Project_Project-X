@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1471654830970454}
+  m_IsPrefabAsset: 1
+--- !u!1 &1168530182361630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4140230389343414}
+  - component: {fileID: 114132853645377762}
+  m_Layer: 0
+  m_Name: Inputs Save and Load
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1471654830970454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4292463692341562}
+  - component: {fileID: 114040639526583012}
+  m_Layer: 0
+  m_Name: Input Manager 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4140230389343414
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1168530182361630}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 952.4079, y: 552.564, z: 83.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4292463692341562}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4292463692341562
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1471654830970454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4140230389343414}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114040639526583012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1471654830970454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c79dd8e12b5cccd44a4fed4beec1ec63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementXAxis: 
+  movementZAxis: 
+  camXAxis: 
+  camYAxis: 
+  jumpKey: 0
+  crouchKey: 0
+  layKey: 0
+  sprintKey: 0
+  swapWeaponAxis: 
+  interactKey: 0
+  shootKey: 0
+  aimKey: 0
+  swapWeaponKey: 0
+  weaponWheelKey: 0
+  reloadKey: 0
+  holdBreathKey: 0
+  dropWeaponKey: 0
+  menuXAxis: 
+  menuYAxis: 
+  pauseKey: 0
+  mapKey: 0
+  inventoryKey: 0
+  weaponMenuKey: 0
+  missionsKey: 0
+  takeAllKey: 0
+  takeKey: 0
+  deleteOneKey: 0
+  deleteSeveralKey: 0
+  submitKey: 0
+  cancelKey: 0
+  quickSave: 0
+  quickLoad: 0
+  connectedGamepad: 2
+  pc_Inputs:
+    movementXAxis: Movement X Axis PC
+    movementZAxis: Movement Y Axis PC
+    camXAxis: Camera X Axis PC
+    camYAxis: Camera Y Axis PC
+    jumpKey: 32
+    crouchKey: 99
+    layKey: 306
+    sprintKey: 304
+    swapWeaponAxis: Mouse ScrollWheel
+    interactKey: 102
+    shootKey: 323
+    aimKey: 324
+    swapWeaponKey: 0
+    weaponWheelKey: 9
+    reloadKey: 114
+    holdBreathKey: 304
+    dropWeaponKey: 113
+    menuXAxis: Menu X Axis PC
+    menuYAxis: Menu Y Axis PC
+    pauseKey: 27
+    mapKey: 109
+    inventoryKey: 105
+    weaponMenuKey: 107
+    missionsKey: 106
+    takeAllKey: 32
+    takeKey: 101
+    deleteOneKey: 120
+    deleteSeveralKey: 121
+    submitKey: 13
+    cancelKey: 92
+    quickSave: 286
+    quickLoad: 290
+  ps4_Inputs:
+    movementXAxis: Movement X Axis PS4
+    movementZAxis: Movement Y Axis PS4
+    camXAxis: Camera X Axis PS4
+    camYAxis: Camera Y Axis PS4
+    jumpKey: 351
+    crouchKey: 361
+    sprintKey: 360
+    swapWeaponAxis: 
+    interactKey: 350
+    shootKey: 355
+    aimKey: 354
+    swapWeaponKey: 333
+    weaponWheelKey: 336
+    reloadKey: 330
+    holdBreathKey: 340
+    dropWeaponKey: 333
+    menuXAxis: Menu X Axis PS4
+    menuYAxis: Menu Y Axis PS4
+    pauseKey: 359
+    mapKey: 363
+    inventoryKey: 0
+    weaponMenuKey: 0
+    missionsKey: 0
+    takeAllKey: 331
+    takeKey: 332
+    deleteOneKey: 333
+    deleteSeveralKey: 332
+    submitKey: 351
+    cancelKey: 352
+  xbox_Inputs:
+    movementXAxis: Movement X Axis XBOX
+    movementZAxis: Movement Y Axis XBOX
+    camXAxis: Camera X Axis XBOX
+    camYAxis: Camera Y Axis XBOX
+    jumpKey: 350
+    crouchKey: 359
+    sprintKey: 358
+    swapWeaponAxis: 
+    interactKey: 352
+    shootKey: 355
+    aimKey: 354
+    swapWeaponKey: 333
+    weaponWheelKey: 343
+    reloadKey: 332
+    holdBreathKey: 338
+    dropWeaponKey: 333
+    menuXAxis: Menu X Axis XBOX
+    menuYAxis: Menu Y Axis XBOX
+    pauseKey: 357
+    mapKey: 356
+    inventoryKey: 0
+    weaponMenuKey: 0
+    missionsKey: 0
+    takeAllKey: 330
+    takeKey: 331
+    deleteOneKey: 333
+    deleteSeveralKey: 332
+    submitKey: 350
+    cancelKey: 351
+--- !u!114 &114132853645377762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1168530182361630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ccba54b5c01004ca97f8c4f475cd9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9108111dc1be31b47b633cca2805d84a, type: 3}
+  m_Name: Apple
+  m_EditorClassIdentifier: 
+  id: 5f1f763a9ca58df4f84f0bd3e1fa2642
+  itemName: Apple
+  icon: {fileID: 21300000, guid: 5d9ba4e7d0964044ea54abe409d81dfd, type: 3}
+  description: It's an Apple. You can eat it it maybe.
+  rarity: 0
+  itemType: 0
+  maxStack: 15
+  dropObj: {fileID: 5623544094406687728, guid: dbaad3912bb2cbc4aa4333972064d719, type: 3}
+  isUseable: 1
+  effects:
+  - {fileID: 11400000, guid: f8ccb779682a2b94aaf0ae4b2a22697c, type: 2}

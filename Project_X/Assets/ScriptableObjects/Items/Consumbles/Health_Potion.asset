@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9108111dc1be31b47b633cca2805d84a, type: 3}
+  m_Name: Health_Potion
+  m_EditorClassIdentifier: 
+  id: a788d58b83973564dbc0c97e5c73de98
+  itemName: Health Potion
+  icon: {fileID: 21300000, guid: e52ea25af699fd445b7046374f81a5b9, type: 3}
+  description: When you Drink this, you're getting healthier.
+  rarity: 0
+  itemType: 0
+  maxStack: 5
+  dropObj: {fileID: 5623544094406687728, guid: dbaad3912bb2cbc4aa4333972064d719, type: 3}
+  isUseable: 1
+  effects:
+  - {fileID: 11400000, guid: 4b65e40faddac2142b603c9b23390992, type: 2}
